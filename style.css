@@ -1,0 +1,101 @@
+/* W3school layout and colors*/
+body {
+  background-color: #FAF0DC;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: khaki;
+  position: fixed; /*the navigation is fixed at the top of the page when scrolling */
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+h1 {
+  background-color: #E8DCB5;
+}
+
+h4 {
+  text-align: center;
+}
+
+h4 {
+  background-color: #E8DCB5;
+}
+
+h4 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Change table background colour - youtube */
+table, th, td {
+  border: 1px solid black;
+  width: 1000
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px auto 20px auto;
+}
+
+th, td {
+  background-color: #D5B895;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input [type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the contact section */
+.container {
+  border-radius: 5px;
+  background-color: #b2b2a0;
+  padding: 10px;
+}
+
+h5 {
+  font-family: "Garamond", Times, serif;
+  "
+
+}
